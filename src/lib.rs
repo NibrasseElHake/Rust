@@ -18,7 +18,7 @@ mod tests {
             assert!(ve1[i] <= ve1[i + 1]);
         }
 
-        //pre-sorted
+        //pre-sorted ,,,,
         let mut ve2 = vec![1, 2, 3, 4, 5, 6];
         sorting::quick_sort(&mut ve2);
         for i in 0..ve2.len() - 1 {
